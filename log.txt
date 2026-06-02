@@ -1,0 +1,17 @@
+Tic-tac-toe Game (Version: 0.4.25022808)
+------------------------------------------------
+[INFO] - [2026-04-27 23:52:08] GameLogger initialized!
+[INFO] - [2026-04-27 23:52:08] GameInteraction initialized!
+[INFO] - [2026-04-27 23:52:17] startGame: board initialized, size=10 goal=4
+[INFO] - [2026-04-27 23:52:17] GameEngine initialized!
+[DEBUG] - [2026-04-27 23:52:17] execution time of [botMove()] = 0.139714s
+[DEBUG] - [2026-04-27 23:52:21] execution time of [botMove()] = 0.0001127s
+[DEBUG] - [2026-04-27 23:52:27] execution time of [botMove()] = 2.17597s
+[DEBUG] - [2026-04-27 23:52:31] execution time of [botMove()] = 0.0001836s
+[DEBUG] - [2026-04-27 23:52:35] execution time of [botMove()] = 1.19796s
+[DEBUG] - [2026-04-27 23:52:39] execution time of [botMove()] = 9.23e-05s
+[DEBUG] - [2026-04-27 23:52:42] execution time of [botMove()] = 0.0009995s
+[DEBUG] - [2026-04-27 23:52:46] execution time of [botMove()] = 0.0001773s
+[DEBUG] - [2026-04-27 23:52:54] execution time of [botMove()] = 4.58484s
+[DEBUG] - [2026-04-27 23:52:58] execution time of [botMove()] = 0.000129s
+......

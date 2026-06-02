@@ -1,9 +1,4 @@
-GHI CHÚ : Đây là file viết từ AI đã qua chỉnh sửa của sinh viên
-
-================================================================
-  TIC-TAC-TOE CONSOLE GAME  —  README
-  Version: 0.4.25022808
-================================================================
+TIC-TAC-TOE CONSOLE GAME  —  README
 
 MỤC LỤC
 --------
@@ -18,9 +13,7 @@ MỤC LỤC
   9. Ghi chú
 
 
-================================================================
 1. YÊU CẦU HỆ THỐNG
-================================================================
 
   - Compiler: g++ (GCC 10+) hoặc clang++ 12+, hỗ trợ C++17
   - OS: Linux / macOS / Windows (MinGW hoặc WSL)
@@ -28,9 +21,8 @@ MỤC LỤC
   - Không cần thư viện ngoài — chỉ dùng STL chuẩn
 
 
-================================================================
 2. BIÊN DỊCH (COMPILE)
-================================================================
+
 
   >> Linux / macOS:
   ------------------
@@ -45,9 +37,8 @@ MỤC LỤC
     g++ -std=c++17 -O2 -Wall -o game game.cpp
 
 
-================================================================
+
 3. CHẠY GAME THƯỜNG (INTERACTIVE MODE)
-================================================================
 
   >> Linux / macOS:
     ./game
@@ -72,9 +63,7 @@ MỤC LỤC
     - Nhập: 100 100          — Surrender (thua luôn)
 
 
-================================================================
 4. JUDGE MODE & CỜ DÒNG LỆNH 
-================================================================
 
   Judge Mode được dùng để chạy game tự động từ file input,
   không hiển thị UI, phù hợp với grader.
@@ -104,9 +93,7 @@ MỤC LỤC
     ./game -j -i testcase/input01.txt -l mylog.txt
     ./src/game --judge --input testcase/input1.txt
 
-================================================================
 5. CHẠY GRADER.PY (TỰ ĐỘNG TEST)
-================================================================
 
   grader.py chạy game trên tất cả testcase trong một thư mục,
   so sánh stdout của game với file output mẫu, và báo cáo kết quả.
@@ -163,10 +150,8 @@ MỤC LỤC
     - Game được chạy với cờ: -j -i <input_file>
     - So sánh stdout của game (sau khi .strip()) với nội dung output file
 
-
-================================================================
 6. CẤU TRÚC TESTCASE (đã chỉnh sửa để khớp với code chạy,thêm chọn end_rule)
-================================================================
+
 
   Mỗi testcase gồm 2 file:
     inputXX.txt   — chuỗi các lần nhập (1 giá trị/dòng)
@@ -202,10 +187,7 @@ MỤC LỤC
     - Trong EVE: cả 2 bot tự tính, không cần dòng nào ngoài config
     - Nếu input hết trước khi game xong → game trả Draw, exit 0
 
-
-================================================================
 7. OUTPUT FILES
-================================================================
 
   Sau mỗi lần chạy game tạo ra 2 file:
 
@@ -227,9 +209,7 @@ MỤC LỤC
 
 Chú ý : Các file trong tệp log và results là mẫu của vài lần chạy game
 
-================================================================
 8. CÁC TÍNH NĂNG GAME
-================================================================
 
   Game mode:
     PVP  — 2 người chơi luân phiên
